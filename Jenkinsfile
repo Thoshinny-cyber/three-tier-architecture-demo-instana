@@ -38,6 +38,7 @@ pipeline{
                                         sudo su - ;
                                         cd /opt/docker; 
                                         tar -xf Bundle.tar.gz; 
+                                        cd web;
                                         docker build . -t ameerbatcha/kubernetes:${DOCKER_TAG}
                                         docker push ameerbatcha/kubernetes:${DOCKER_TAG}
                                         """,
