@@ -32,6 +32,32 @@ ocCreateRoute: false
 #   nodeSelector: {}
 #   tolerations: []
 ######################################
+# Specific image configurations
+images:
+  cart:
+    version: null
+  catalogue:
+    version: null
+  dispatch:
+    version: null
+  mongodb:
+    version: null
+  mysql:
+    version: null
+  payment:
+    version: null
+  rabbitmq:
+    version: null
+  ratings:
+    version: null
+  redis:
+    version: null
+  shipping:
+    version: null
+  user:
+    version: null
+  web:
+    version: null
 
 cart: {}
 
